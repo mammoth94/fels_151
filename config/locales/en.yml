@@ -30,4 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  static_pages:
+   home:
+       name: "Tran Quoc Trung"
+       welcome : "Welcome to my page! (^.^)"
+   help:
+       staticpage : "StaticPages#help"
+       find : "Find me in app/views/static_pages/help.html.erb"
+   about:
+       about : "StaticPages#about"
+       view : "Find me in app/views/static_pages/about.html.erb"
