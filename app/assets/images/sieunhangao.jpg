@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Chào mừng bạn đến với Hiệp Sĩ Online - Đăng nhập, Đăng ký</title>
+        <link rel="stylesheet" href="http://forum.knightageonline.com/app/view/css/template.css" type="text/css" />		
+        <link rel="shortcut icon" href='http://forum.knightageonline.com/app/view/images/favicon.ico' type="image/x-icon" />
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-38084035-6', 'knightageonline.com');
+		  ga('send', 'pageview');
+
+		</script>
+    </head>   
+    <body>
+        <div class="body_body">
+            <div class="left_top"></div><div class="bg_top"><div class="right_top"></div></div>
+            <div class="body-content">
+                <div class="a" align="center"><a href="http://knightageonline.com/"><img src="http://knightageonline.com/images/logo_V_158.png" /></a><br>
+				<!--<span style="color:#fff;font-size:14px;">Beta Test</span>-->
+				</div>
+                <div id="top">
+                    <div class="link-more">	
+                        <div class="h" align="center">
+                            <!--<div style="color: #032E58;margin-top:-8px;margin-bottom:4px;">
+							<center> <b>Mạng xã hội cho điện thoại di động</b></center> 
+							</div>-->
+							<div class="bg_tree"></div>
+							<div class="bg_noel"></div>
+                            <div class="menu2" style="background: #561d00;">
+								<table width="100%" border="0" cellspacing="4">
+									<tr class="menu">
+										<td><a href="http://knightageonline.com">Trang Chủ</a></td>
+										<td id="selected"><a href="http://forum.knightageonline.com/app/?for=forum&do=detail">Diễn Đàn</a></td>
+									</tr>
+								</table>
+							</div>
+                                                                                    <div class="bg-content" style="text-align:center">
+                            <div style="font-size:10px;">Sử dụng tài khoản Hiệp Sĩ Online để đăng nhập.</div>
+                                <center><form action="http://forum.knightageonline.com/app/index.php?do=login" method="POST" name="login">
+                                    <input type="hidden" name="nav" value="" readonly="readonly" />
+                                    <table>
+                                        <tr>
+                                            <td><label for="user">SĐT / Email:</label></td>
+                                            <td><input name="user" type="text" value="" style="width:120px"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="pass">Mật khẩu:</label></td>
+                                            <td><input name="pass" type="password" value="" style="width:120px"/>
+											<input type="hidden" name="checkru" value="d86637b8caac1d0ceed5a622ef459a8a"/></td>
+                                        </tr>
+                                    </table>
+                                    <button type="submit" value="Đăng nhập" name="submit">Đăng nhập</button><br />
+                                    <div style="font-size:10px;">
+								Nếu bạn chưa có tài khoản, vui lòng <a href="/app/view/register.php">đăng ký</a><br>
+								<a href="http://knightageonline.com/matkhau">Quên mật khẩu</a></div>
+                                </form><br>
+								</center>
+                            </div>
+                        </div>
+                        <br>
+                    </div><br>
+
+                </div>
+
+            </div>
+
+          <div class="left_b_bottom"><div class="right_b_bottom"><div class="footer"><div class="left_bottom"></div><div class="right_bottom"></div></div></div></div>
+ <div class="copyright" style="color:#fff"><br><b>Hiệp Sĩ Online<br>
+Bản quyền thuộc về TeaMobi - 2014</b></div>
+</div>
+        </div>
+    </div>
+</body>
+
+</html>

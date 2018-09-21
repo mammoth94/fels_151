@@ -1,42 +1,91 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
+  hello: "Hello world"
+  titles: "Ruby on Rails Tutorial Sample App"
+  welcome_1: "Welcome to my website"
+  danger: "Invalid email/password combination"
+  notfound: "Email address not found!"
   static_pages:
    home:
-       name: "Tran Quoc Trung"
-       welcome : "Welcome to my page! (^.^)"
+    welcome: "Tran Quoc Trung (^.^). Welcome to the Sample App"
+    introduce_1 : "This is the home page for the"
+    introduce_2 : "sample application."
+    name_1: "Gaoranger"
+    url_1: "http://www.railstutorial.org/"
+    name_2: "Sign up now!"
    help:
-       staticpage : "StaticPages#help"
-       find : "Find me in app/views/static_pages/help.html.erb"
-   about:
-       about : "StaticPages#about"
-       view : "Find me in app/views/static_pages/about.html.erb"
+    staticpage : "Help"
+    find : "Find me in app/views/static_pages/help.html.erb"
+    title: " | Ruby on Rails Tutorial Sample App"
+    help_1: "Các bạn cần Trung giúp gì nào (^.^) ~~Help~~"
+    help_2: "Get help on the Ruby on Rails Tutorial at the"
+    more_help: "To get help on this sample app, see the"
+    name_1: "Rails Tutorial help page"
+    url_1: "http://www.railstutorial.org/help"
+    name_2: "Ruby on Rails Tutorial"
+    url_2: "http://www.railstutorial.org/book"
+    book: "book"
+   contact:
+    contact_1: "Contact"
+    follow: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    name: " contact page"
+    url: "http://www.railstutorial.org/contact"
+   about: 
+    head: "| Ruby on Rails Tutorial Sample App"
+    follow_1: "Các bạn cứ liên hệ Trung qua facebook nha (^.^)"
+    the: "The"
+    be: "is a"
+    and: "and"
+    to: "to teach web development with"
+    sample: "This is the sample application for the tutorial."
+    name_1: "Ruby on Rails Tutorial"
+    url_1: "http://www.railstutorial.org/"
+    name_2: "book"
+    url_2: "http://www.railstutorial.org/book"
+    name_3: "screencast series"
+    url_3: "http://screencasts.railstutorial.org/"
+    name_4: " Ruby on Rails"
+    url_4: "http://facebook.com/"
+    about_1: "About"
+  users:
+   new: 
+    head_1: "Sign up"
+    signup: "This will be a signup page for new users."
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirm: "Password confirm"
+    creat: "Create my account"
+  layouts:
+   _footer:
+    the_1: "The"
+    by: "by"
+    about_1: "About"
+    contact_1: "Contact"
+    url_1: "http://news.railstutorial.org/"
+    name_1: "Michael Hartl"
+    url_2: "http://www.railstutorial.org/"
+    name_2: "Ruby on Rails Tutorial"
+    url_3: "http://www.michaelhartl.com/"
+    name_3: " Michael Hartl"
+   _header:
+    name_1: "Sample App"
+    name_2: "Home"
+    name_3: "Help"
+    name_4: "Log in"
+    name_5: "Users"
+    name_6: "Profile"
+    name_7: "Settings"
+    name_8: "Log out"
+    account: "Account"
+  shared:
+   _error_:
+    error:
+     one: "%{count} error"
+     other: "%{count} errors"
+  sessions:
+   new:
+    email: "Email"
+    password: "Password"
+    login: "Log in"
+    signup: "Sign up now!"
+    new: "New user?"

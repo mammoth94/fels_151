@@ -1,3 +1,17 @@
-<h1><%= t ".staticpage" %></h1>
-<p><%= t ".find" %></p>
-
+<% provide(:title, t("static_pages.help.staticpage")) %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %><%= t ".title" %></title>
+  </head>
+  <body>
+    <h1><%= t ".help_1" %></h1>
+    <p>
+      <%= t ".help_2" %>
+     <%= link_to t("static_pages.about.name_1"), t("static_pages.about.url_1")%>
+      <%= t ".more_help" %>
+     <%= link_to t("static_pages.about.name_1"), t("static_pages.about.url_1")%>
+     <%= t ".book" %>
+    </p>
+  </body>
+</html>
