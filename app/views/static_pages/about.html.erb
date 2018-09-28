@@ -1,0 +1,19 @@
+<% provide(:title, t("static_pages.about.about_1")) %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %><%= t ".head" %></title>
+  </head>
+  <body>
+    <h1><%= t ".follow_1" %></h1>
+    <p>
+      <%= t ".the" %> 
+      <%= link_to t("static_pages.about.name_1"), t("static_pages.about.url_1")%> <%= t ".be" %>
+      <%= link_to t("static_pages.about.name_2"), t("static_pages.about.url_2")%> <%= t ".and" %>
+      <%= link_to t("static_pages.about.name_3"), t("static_pages.about.url_3")%>
+      <%= t ".to" %>
+      <%= link_to t("static_pages.about.name_4"), t("static_pages.about.url_4")%>
+      <%= t ".sample" %>
+    </p>
+  </body>
+</html>
