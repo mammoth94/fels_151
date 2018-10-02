@@ -1,13 +1,42 @@
+<% if logged_in? %>
+ <h1><%= t ".welcome" %></h1>
+    <%= image_tag("framgia.png", alt: "Framgia", align: "center",
+     width: "1000") %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+    </aside>
+  </div>
+<% else %>
 <div class="center jumbotron">
+
   <h1><%= t ".welcome" %></h1>
+    <%= image_tag("framgia.png", alt: "Framgia", align: "center",
+     width: "1000") %>
   
   <h2>
     <%= t ".introduce_1" %>
     <%= t ".introduce_2" %>
   </h2>
-  
   <%= link_to t("static_pages.home.name_2"), signup_path, class: "btn btn-lg btn-default" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
- "http://recruit.framgia.vn/" %>
+<%= image_tag("framgialogo.png", alt: "Framgia logo",
+   align: "left", border: "10") %>
+
+<body>
+ <h3><b><i>Description:</i></b></h3>
+ <big><bdo dir:"ltr">
+  Framgia E-learning English is a new course for all framgia employees. This
+  website includes a lot of word lists and lessons. Each word list contains 20
+  words for learning. After each course, users can practice by doing exercise 
+  in lesson part. Your score will be displayed after finishing the lesson and
+  you can see the result of each question. 
+  </bdo></big>
+</body>
+<% end %>
