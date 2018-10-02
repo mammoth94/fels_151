@@ -1,0 +1,14 @@
+<table id="wordlist_arrange1">
+ <tr>
+  <th>Word</th>
+   <tr>
+    <td>
+      <% Wordlist1.order(:word).sort_by(&:word).each do |wordlist1| %>
+      <br>
+      <%= wordlist1.word %>
+      <br>
+      <% end %>
+    </td>
+   </tr>
+ </tr>
+</table>

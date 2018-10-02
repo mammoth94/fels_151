@@ -59,14 +59,16 @@ en:
    show:
     course_1: "Course 1"
     course_2: "Course 2"
-    course_3: "Course_3"
    course_1:
     course: "First course"   
     name: "English for beginner"
     word_list_1: "Word list 1"
     lesson_1: "Lesson 1"
-    word_list_2: "Word list 2"
-    lesson_2: "Lesson 2"
+   course_2:
+    course: "Second course"   
+    name: "English for Intermediate"
+    word_list_2: "Word list 1"
+    lesson_2: "Lesson 1"
    word_list_1:
     title: "Word List 1"
     name: "Word List 1"
@@ -84,7 +86,7 @@ en:
     name_3: "Help"
     name_4: "Log in"
     name_5: "History"
-    name_6: "Profile"
+    name_6: "Course"
     name_7: "Settings"
     name_8: "Log out"
     account: "Account"
