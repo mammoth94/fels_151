@@ -36,10 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 0.5em;
+  font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 60px;
-  text-align: center;
 }
 
 h2 {
@@ -51,11 +50,18 @@ h2 {
   color: $gray-light;
 }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+h3 {
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: normal;
+  padding-top: 100px;
 }
 
+
+p {
+  font-size: 3em;
+  line-height: 3em;
+}
 
 /* header */
 #logo {
@@ -65,7 +71,7 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 10px;
+  padding-top: 30px;
   font-weight: bold;
   &:hover {
     color: white;
@@ -113,7 +119,7 @@ aside {
     margin-top: 20px;
   }
   section {
-    padding: 10px 0;
+    padding: 10px 1;
     margin-top: 20px;
     &:first-child {
       border: 0;
@@ -125,18 +131,19 @@ aside {
       line-height: 1;
     }
     h1 {
-      font-size: 1.4em;
-      text-align: left;
+      font-size: 3em;
+      text-align: center;
       letter-spacing: -1px;
-      margin-bottom: 3px;
+      margin-bottom: 6px;
       margin-top: 0px;
+      margin-left: 150px;
     }
   }
 }
 
 .gravatar {
-  float: right;
-  margin-right: 100px;
+  float: center;
+  margin-left: 100px;
 }
 
 .gravatar_edit {
