@@ -13,6 +13,8 @@ gem "bootsnap"
 gem "rubocop", "~> 0.54.0", require: false
 gem "bootstrap-sass", "3.3.7"
 gem "bcrypt", "3.1.12"
+gem "will_paginate"
+gem "pagy"
 
 group :development, :test do
   gem "sqlite3", "1.3.13"
@@ -32,6 +34,9 @@ group :test do
   gem "minitest-reporters", "1.1.14"
   gem "guard",  "2.13.0"
   gem "guard-minitest", "2.4.4"
+  gem "capybara", ">= 2.15"
+  gem "selenium-webdriver"
+  gem "chromedriver-helper"
 end
 
 group :production do

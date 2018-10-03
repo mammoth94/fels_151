@@ -1,3 +1,11 @@
+User.create!(name: "Tran Quoc Trung",
+             email: "quoctrungtran256@gmail.com",
+             password: "taolaking",
+             password_confirmation: "taolaking",
+             role: 1,
+             activated: true,
+             activated_at: Time.zone.now)
+
 Wordlist.create!(word:"about")
 Wordlist.create!(word:"after")
 Wordlist.create!(word:"must")

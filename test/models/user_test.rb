@@ -10,17 +10,16 @@ class UserTest < ActiveSupport::TestCase
   test "should be valid" do
     assert @user.valid?
   end
-  
+
   test "name should be present" do
-    @user.name = "     "
+    @user.name = ""
     assert_not @user.valid?
   end
 
   test "email should be present" do
-    @user.email = "     "
+    @user.email = ""
     assert_not @user.valid?
   end
-  
   test "name should not be too long" do
     @user.name = "a" * 51
     assert_not @user.valid?
@@ -72,6 +71,9 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
   end
+
+  test "authenticated? should return false for a user with nil digest" do
+    assert_not @user.authenticated?(:remember, "")
   
   test "should follow and unfollow a user" do
     michael = users(:michael)

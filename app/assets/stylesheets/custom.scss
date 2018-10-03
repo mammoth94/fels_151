@@ -213,3 +213,44 @@ input {
     color: $state-danger-text;
   }
 }
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+/* Users index */
+.users, .questions {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+
+.list-answers{
+  .son1{
+    width: 97%;
+    float: left;
+  }
+  .son2{
+    float: right;
+    width: 3%;
+  }
+}
+
+.input-group{
+  margin-top: 10px;
+}
